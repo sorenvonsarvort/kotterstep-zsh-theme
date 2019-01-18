@@ -16,7 +16,7 @@ The general "Kotterstep" design is:
 
 ```
 prompt: component [separator component] hint
-component: [content
+component: [content]
 separator: -
 hint: content
 ```
@@ -27,7 +27,7 @@ The current implementation is:
 
  +-decoration-+             +-separator-+
  |                          |
- |  +-username@hostname-+   |   +-path-+                            +-timestamp-+ 
+ |  +-username@hostname-+   |   +-path-component-+                  +-timestamp-component-+ 
  |  |                       |   |                                   |
  +--+-----------------------+---+-------------------------------+---+-------------------+
   ┌─[sorenvonsarvort@kathode] - [~/Projects/kotterstep-zsh-theme] - [2019-01-18 06:17:50]
@@ -38,7 +38,7 @@ The current implementation is:
     |     |
     |     +-version-hint-+
     |
-    +-error-code-+
+    +-error-code-component-+
 
 ```
 
