@@ -61,7 +61,9 @@ A: It is a modern trend and a way for providing more space for the user's input.
 A:
 
 [Fira Code](https://github.com/tonsky/FiraCode)
+
 [ZSH Syntax Highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
+
 [Base16 Twilight](https://github.com/hartbit/base16-twilight-scheme)
 
 ```sh
