@@ -6,11 +6,11 @@ The most pragmatic ZSH-theme derived some day from rkj-repos. Better looks with 
 
 ## Features
 
-1. Consistent colors designed with dark-first approach.
+**Consistent colors designed with dark-first approach**
 
-The colors do not conflict for most existing themes.
+The colors do not conflict in most existing color schemes.
 
-2. Meaningful design.
+**Meaningful design**
 
 The general "Kotterstep" design is:
 
@@ -44,19 +44,19 @@ The current implementation is:
 
 ## FAQ
 
-Q: Why decorations in pragmatic theme?
+**Q: Why decorations in pragmatic theme?**
 
 A: Okay, historical reasons. Will be removed some day.
 
-Q: What is the hint?
+**Q: What is the hint?**
 
 A: Hint is an optional promt element that shows up when it is needed. For example, when You open a git repo directory, You can see the branch name. When the branch name is not available - You can see the reference.
 
-Q: Why two lines?
+**Q: Why two lines?**
 
 A: It is a modern trend and a way for providing more space for the user's input.
 
-Q: What else is used in the screenshot?
+**Q: What else is used in the screenshot?**
 
 A:
 
