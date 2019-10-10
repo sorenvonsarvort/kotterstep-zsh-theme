@@ -2,7 +2,8 @@
 
 The most pragmatic ZSH-theme derived some day from rkj-repos. Better looks with Fira Code, the most pragmatic font for input and code.
 
-![Screenshot](/screenshot.png)
+![Dark Theme Screenshot](/screenshot-dark.png)
+![Light Theme Screenshot](/screenshot-light.png)
 
 ## Features
 
@@ -16,7 +17,7 @@ The general "Kotterstep" design is:
 
 ```
 prompt: component [separator component] hint
-component: [content]
+component: \[content\]
 separator: -
 hint: content
 ```
@@ -50,7 +51,7 @@ A: Okay, historical reasons. Will be removed some day.
 
 **Q: What is the hint?**
 
-A: Hint is an optional promt element that shows up when it is needed. For example, when You open a git repo directory, You can see the branch name. When the branch name is not available - You can see the reference.
+A: Hint is an optional prompt element that shows up when it is needed. For example, when You open a git repo directory, You can see the branch name. When the branch name is not available - You can see the reference.
 
 **Q: Why two lines?**
 
@@ -64,10 +65,10 @@ A:
 
 [ZSH Syntax Highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
 
-[Base16 Twilight](https://github.com/hartbit/base16-twilight-scheme)
+[Windows 10-like font rendering config for Linux](https://gist.github.com/sorenvonsarvort/fa6c5341403bf306e23034a1a1a9111b)
 
-```sh
+[VS Code Integrated Terminal](https://code.visualstudio.com/docs/editor/integrated-terminal)
 
-export FREETYPE_PROPERTIES="truetype:interpreter-version=38"
+[Ayu Mirage VS Code Theme](https://marketplace.visualstudio.com/items?itemName=teabyii.ayu)
 
-```
+[VS Code Light Theme](https://marketplace.visualstudio.com/items?itemName=teabyii.ayu)
